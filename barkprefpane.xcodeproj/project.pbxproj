@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831A38B916757C2500445067 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831A38B816757C2500445067 /* Cocoa.framework */; };
+		831A38BB16757C2500445067 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831A38BA16757C2500445067 /* PreferencePanes.framework */; };
+		831A38C516757C2500445067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 831A38C316757C2500445067 /* InfoPlist.strings */; };
+		831A38C916757C2500445067 /* barkprefpane.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A38C816757C2500445067 /* barkprefpane.m */; };
+		831A38CB16757C2500445067 /* barkprefpane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 831A38CA16757C2500445067 /* barkprefpane.tiff */; };
+		831A38CE16757C2500445067 /* barkprefpane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831A38CC16757C2500445067 /* barkprefpane.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831A38B516757C2500445067 /* barkprefpane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barkprefpane.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		831A38B816757C2500445067 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		831A38BA16757C2500445067 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		831A38BD16757C2500445067 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		831A38BE16757C2500445067 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		831A38BF16757C2500445067 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		831A38C216757C2500445067 /* barkprefpane-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "barkprefpane-Info.plist"; sourceTree = "<group>"; };
+		831A38C416757C2500445067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		831A38C616757C2500445067 /* barkprefpane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "barkprefpane-Prefix.pch"; sourceTree = "<group>"; };
+		831A38C716757C2500445067 /* barkprefpane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barkprefpane.h; sourceTree = "<group>"; };
+		831A38C816757C2500445067 /* barkprefpane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barkprefpane.m; sourceTree = "<group>"; };
+		831A38CA16757C2500445067 /* barkprefpane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = barkprefpane.tiff; sourceTree = "<group>"; };
+		831A38CD16757C2500445067 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/barkprefpane.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831A38B016757C2500445067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831A38B916757C2500445067 /* Cocoa.framework in Frameworks */,
+				831A38BB16757C2500445067 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831A38A816757C2500445067 = {
+			isa = PBXGroup;
+			children = (
+				831A38C016757C2500445067 /* barkprefpane */,
+				831A38B716757C2500445067 /* Frameworks */,
+				831A38B616757C2500445067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831A38B616757C2500445067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831A38B516757C2500445067 /* barkprefpane.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831A38B716757C2500445067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				831A38B816757C2500445067 /* Cocoa.framework */,
+				831A38BA16757C2500445067 /* PreferencePanes.framework */,
+				831A38BC16757C2500445067 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		831A38BC16757C2500445067 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				831A38BD16757C2500445067 /* AppKit.framework */,
+				831A38BE16757C2500445067 /* CoreData.framework */,
+				831A38BF16757C2500445067 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		831A38C016757C2500445067 /* barkprefpane */ = {
+			isa = PBXGroup;
+			children = (
+				831A38C716757C2500445067 /* barkprefpane.h */,
+				831A38C816757C2500445067 /* barkprefpane.m */,
+				831A38CA16757C2500445067 /* barkprefpane.tiff */,
+				831A38CC16757C2500445067 /* barkprefpane.xib */,
+				831A38C116757C2500445067 /* Supporting Files */,
+			);
+			path = barkprefpane;
+			sourceTree = "<group>";
+		};
+		831A38C116757C2500445067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				831A38C216757C2500445067 /* barkprefpane-Info.plist */,
+				831A38C316757C2500445067 /* InfoPlist.strings */,
+				831A38C616757C2500445067 /* barkprefpane-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		831A38B116757C2500445067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		831A38B416757C2500445067 /* barkprefpane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831A38D116757C2500445067 /* Build configuration list for PBXNativeTarget "barkprefpane" */;
+			buildPhases = (
+				831A38AF16757C2500445067 /* Sources */,
+				831A38B016757C2500445067 /* Frameworks */,
+				831A38B116757C2500445067 /* Headers */,
+				831A38B216757C2500445067 /* Resources */,
+				831A38B316757C2500445067 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barkprefpane;
+			productName = barkprefpane;
+			productReference = 831A38B516757C2500445067 /* barkprefpane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831A38AA16757C2500445067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ChrisMcCall;
+			};
+			buildConfigurationList = 831A38AD16757C2500445067 /* Build configuration list for PBXProject "barkprefpane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 831A38A816757C2500445067;
+			productRefGroup = 831A38B616757C2500445067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831A38B416757C2500445067 /* barkprefpane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831A38B216757C2500445067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831A38C516757C2500445067 /* InfoPlist.strings in Resources */,
+				831A38CB16757C2500445067 /* barkprefpane.tiff in Resources */,
+				831A38CE16757C2500445067 /* barkprefpane.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		831A38B316757C2500445067 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831A38AF16757C2500445067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831A38C916757C2500445067 /* barkprefpane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		831A38C316757C2500445067 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831A38C416757C2500445067 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		831A38CC16757C2500445067 /* barkprefpane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831A38CD16757C2500445067 /* en */,
+			);
+			name = barkprefpane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831A38CF16757C2500445067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		831A38D016757C2500445067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		831A38D216757C2500445067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "barkprefpane/barkprefpane-Prefix.pch";
+				INFOPLIST_FILE = "barkprefpane/barkprefpane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		831A38D316757C2500445067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "barkprefpane/barkprefpane-Prefix.pch";
+				INFOPLIST_FILE = "barkprefpane/barkprefpane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831A38AD16757C2500445067 /* Build configuration list for PBXProject "barkprefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831A38CF16757C2500445067 /* Debug */,
+				831A38D016757C2500445067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831A38D116757C2500445067 /* Build configuration list for PBXNativeTarget "barkprefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831A38D216757C2500445067 /* Debug */,
+				831A38D316757C2500445067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831A38AA16757C2500445067 /* Project object */;
+}
